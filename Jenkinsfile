@@ -5,7 +5,7 @@
     stage('Build')
 
      {
-      
+      sh 'mvn clean install'
        sh 'mvn package'
 
      }
